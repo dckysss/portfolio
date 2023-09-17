@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactTypingEffect from 'react-typing-effect';
 import styles from '../style';
 import { developer } from '../assets';
 import SocMed from './SocMed';
@@ -14,7 +15,28 @@ const Hero = () => (
           </div>
 
           <h2 className='font-poppins font-semibold ss:text-[48px] text-[26px] text-white ss:leading-[60px] leading-[55px]'>
-            A Front-End Web Developer
+            <ReactTypingEffect
+              text={["Front-End Web Developer", "UI/UX Designer"]}
+              cursorRenderer={cursor => <span className='flex'>{cursor}</span>}
+              speed={120}
+              eraseSpeed={120}
+              typingDelay={800}
+              displayTextRenderer={(text) => {
+                return (
+                  <h2>
+                    A {' '}
+                    {text.split('').map((char, i) => {
+                      const key = `${i}`;
+                      return (
+                        <span
+                          key={key}
+                        >{char}</span>
+                      );
+                    })}
+                  </h2>
+                );
+              }}        
+            />
           </h2>
         </div>
 

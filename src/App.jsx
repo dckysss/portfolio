@@ -16,7 +16,7 @@ const App = () => {
   }, []);
   
   return(
-    <div className="bg-primary w-full overflow-hidden">
+    <div className="bg-primary w-full overflow-hidden smooth-scroll">
       <div className={`${styles.paddingX} ${styles.flexCenter} xl:fixed z-[999] w-full ${visible ? '' : 'navbar'}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />

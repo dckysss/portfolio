@@ -15,7 +15,13 @@ const Navbar = () => {
             className={`font-poppins 
             font-normal cursor-pointer text-[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
           >
-            <Link activeClass="active" spy to={`${nav.id}`}>
+            <Link 
+              activeClass="active" 
+              spy to={`${nav.id}`}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               {nav.title}
             </Link>
           </li>

@@ -19,15 +19,18 @@ const Project = () => {
         <h2 className={`${styles.heading2} text-center mb-4 md:mb-6`}>My Projects</h2>
         {projects.map((project) => (
           <div className="flex justify-center mb-8">
-            <div className="w-[50%] relative shadow-md shadow-sky-500/50 rounded-[0.5rem] overflow-hidden img-transition">
+            <div className="w-[90%] relative shadow-md shadow-sky-500/50 rounded-[0.5rem] overflow-hidden img-transition md:w-[60%]">
               <a href={project.link} target='_blank'>
               <img key={project.id} src={project.img} alt={project.id} 
-              className={`rounded-[0.5rem] object-contain cursor-pointer transition-transform`} />
-              <div className="absolute w-full h-full z-[3] top-0 flex justify-center rounded-[0.5rem] p-6 hover-img">
+              className={`rounded-[0.5rem] object-contain opacity-75 cursor-pointer transition-transform web-img`} />
+              <div className="absolute w-full h-full z-[3] top-0 flex justify-center rounded-[0.5rem] p-6 hover-img text-[0.8rem] sm:text-[1rem]">
+                <div className="absolute left-2 top-2 px-2 text-white bg-sky-600/75 rounded-[0.5rem] tracking-wide font-poppins">
+                  {project.type}
+                </div>
                 <div className="text-white my-auto text-center font-poppins">
                   <div className="flex justify-center">
-                    <h3 className="font-semibold text-[1.5rem] mr-2">{project.name}</h3>
-                    <img src={visit} alt="visit" className="w-[1.5rem]"/>
+                    <h3 className="font-semibold text-[1rem] mr-2 sm:text-[1.5rem]">{project.name}</h3>
+                    <img src={visit} alt="visit" className="w-[1rem] sm:w-[1.5rem]"/>
                   </div>
                   <p>{project.desc}</p>
                 </div>

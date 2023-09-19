@@ -84,6 +84,7 @@ export const projects = [
   {
     id: "project-1",
     name: "Movie Search",
+    type: "Frontend Development",
     desc: "Movie searching website using TheMovieDatabase API with react speech recognition.",
     img: movieSearch,
     link: "https://movi3databas3.netlify.app/",
@@ -91,6 +92,7 @@ export const projects = [
   {
     id: "project-2",
     name: "LVinnamon",
+    type: "Frontend Development",
     desc: "Simple company product selling website with vanilla html, css, js and jquery.",
     img: lvinnamon,
     link: "https://lvinnamon.netlify.app/",
@@ -98,6 +100,7 @@ export const projects = [
   {
     id: "project-3",
     name: "HooBank",
+    type: "Frontend Development",
     desc: "HooBank cool company profile landing page with react & tailwind.",
     img: hoobank,
     link: "https://hoobank4.netlify.app/",
@@ -105,6 +108,7 @@ export const projects = [
   {
     id: "project-4",
     name: "manage",
+    type: "Frontend Development",
     desc: "Frontend Mentor manage company profile landing page with tailwind & jquery.",
     img: manage,
     link: "https://manage-landing-fementor.netlify.app/",

@@ -37,7 +37,7 @@ const Navbar = () => {
         />
 
         <div
-          className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute z-[10] top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className='list-none flex flex-col justify-end items-center flex-1'>
           {navLinks.map((nav, index) => (
@@ -46,9 +46,15 @@ const Navbar = () => {
               className={`font-ppoppins 
               font-normal cursor-pointer text-[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white mr-10`}
             >
-              <a href={`#${nav.id}`}>
+              <Link 
+                activeClass="active" 
+                spy to={`${nav.id}`}
+                smooth={true}
+                offset={-140}
+                duration={500}
+              >
                 {nav.title}
-              </a>
+              </Link>
             </li>
           ))}
           </ul>

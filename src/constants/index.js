@@ -1,4 +1,4 @@
-import { github, linkedin, css, react, html, js, tailwind, vite, figma, lvinnamon, movieSearch, hoobank, manage  } from "../assets";
+import { github, linkedin, css, react, html, js, tailwind, vite, figma, lvinnamon, movieSearch, hoobank, manage, tako  } from "../assets";
 
 export const navLinks = [
   {
@@ -91,6 +91,14 @@ export const projects = [
   },
   {
     id: "project-2",
+    name: "Tako",
+    type: "UI/UX",
+    desc: "Introducing Tako, a connecting platform between creators and fans.",
+    img: tako,
+    link: "https://tako.id/",
+  },
+  {
+    id: "project-3",
     name: "LVinnamon",
     type: "Frontend Development",
     desc: "Simple company product selling website with vanilla html, css, js and jquery.",
@@ -98,7 +106,7 @@ export const projects = [
     link: "https://lvinnamon.netlify.app/",
   },
   {
-    id: "project-3",
+    id: "project-4",
     name: "HooBank",
     type: "Frontend Development",
     desc: "HooBank cool company profile landing page with react & tailwind.",
@@ -106,7 +114,7 @@ export const projects = [
     link: "https://hoobank4.netlify.app/",
   },
   {
-    id: "project-4",
+    id: "project-5",
     name: "manage",
     type: "Frontend Development",
     desc: "Frontend Mentor manage company profile landing page with tailwind & jquery.",

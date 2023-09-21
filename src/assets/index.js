@@ -17,6 +17,7 @@ import movieSearch from "./movieSearch.jpeg"
 import lvinnamon from "./LVinnamon.jpeg"
 import hoobank from "./hoobank.jpeg"
 import manage from "./manage.png"
+import tako from "./Tako.jpeg"
 
 export {
   card,
@@ -38,4 +39,5 @@ export {
   lvinnamon,
   hoobank,
   manage,
+  tako,
 };

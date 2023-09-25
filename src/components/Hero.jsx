@@ -14,34 +14,36 @@ const Hero = () => (
             </h1>
           </div>
 
-          <h2 className='font-poppins font-semibold ss:text-[48px] text-[26px] text-white ss:leading-[60px] leading-[55px]'>
-            <ReactTypingEffect
-              text={["Front-End Web Developer", "UI/UX Designer"]}
-              cursorRenderer={cursor => <span className='flex'>{cursor}</span>}
-              speed={120}
-              eraseSpeed={120}
-              typingDelay={800}
-              displayTextRenderer={(text) => {
-                return (
-                  <h2>
-                    A {' '}
-                    {text.split('').map((char, i) => {
-                      const key = `${i}`;
-                      return (
-                        <span
-                          key={key}
-                        >{char}</span>
-                      );
-                    })}
-                  </h2>
-                );
-              }}        
-            />
-          </h2>
+          <div className='h-20'>
+            <h2 className='font-poppins font-semibold ss:text-[40px] text-[26px] text-white ss:leading-[60px] leading-[35px]'>
+              <ReactTypingEffect
+                text={["Front-End Web Developer", "UI/UX Designer"]}
+                cursorRenderer={cursor => <span className='flex'>{cursor}</span>}
+                speed={120}
+                eraseSpeed={120}
+                typingDelay={800}
+                displayTextRenderer={(text) => {
+                  return (
+                    <h2>
+                      A {' '}
+                      {text.split('').map((char, i) => {
+                        const key = `${i}`;
+                        return (
+                          <span
+                            key={key}
+                          >{char}</span>
+                        );
+                      })}
+                    </h2>
+                  );
+                }}        
+              />
+            </h2>
+          </div>
         </div>
 
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-          <img src={developer} alt='billing'
+          <img src={developer} alt='developer'
           className='w-[100%] h-[100%] relative z-[5] md:pt-6'
           draggable="false" />
 

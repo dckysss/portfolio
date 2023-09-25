@@ -5,11 +5,12 @@ import html from "./Html.svg";
 import tailwind from "./tailwind.svg";
 import react from "./react.svg";
 import js from "./js.svg";
-import vite from "./vite.svg";
-import figma from "./figma.svg"
+import figma from "./figma.svg";
+import go from "./go.svg";
+import java from "./java.svg"
 import menu from "./menu.svg";
 import close from "./close.svg";
-import visit from "./visit-link.svg"
+import visit from "./visit-link.svg";
 import github from "./github.svg";
 import linkedin from "./linkedin.svg";
 import developer from "./developer.svg";
@@ -27,8 +28,9 @@ export {
   js,
   react,
   tailwind,
-  vite,
   figma,
+  go,
+  java,
   menu,
   close,
   visit,

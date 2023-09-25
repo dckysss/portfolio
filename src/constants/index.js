@@ -1,4 +1,4 @@
-import { github, linkedin, css, react, html, js, tailwind, vite, figma, lvinnamon, movieSearch, hoobank, manage, tako  } from "../assets";
+import { github, linkedin, css, react, html, js, tailwind, go, java, figma, lvinnamon, movieSearch, hoobank, manage, tako  } from "../assets";
 
 export const navLinks = [
   {
@@ -19,51 +19,42 @@ export const techs = [
   {
     id: "tech-1",
     icon: react,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    title: "React",
   },
   {
-    id: "feature-2",
+    id: "tech-2",
     icon: html,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    title: "HTML",
   },
   {
-    id: "feature-3",
+    id: "tech-3",
     icon: css,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "CSS",
   },
   {
-    id: "feature-4",
+    id: "tech-4",
     icon: js,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "JavaScript",
   },
   {
-    id: "feature-5",
+    id: "tech-5",
     icon: tailwind,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "Tailwind",
   },
   {
-    id: "feature-6",
-    icon: vite,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    id: "tech-6",
+    icon: go,
+    title: "Golang",
   },
   {
-    id: "feature-7",
+    id: "tech-7",
+    icon: java,
+    title: "Java",
+  },
+  {
+    id: "tech-8",
     icon: figma,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "Figma",
   },
 ];
 

@@ -1,7 +1,7 @@
 import { socialMedia } from '../constants'
 
 const SocMed = () => (
-    <section className="flex flex-wrap xl:px-0 px-16">
+    <section className="flex flex-wrap xl:px-0 px-16 justify-center sm:justify-start">
       {socialMedia.map((social, index) => (
         <a href={social.link} target='_blank'>
         <img key={social.id} src={social.icon} alt={social.id} 

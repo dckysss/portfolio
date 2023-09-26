@@ -31,7 +31,7 @@ const About = () => {
     <section id="about-me" className={`${styles.paddingY} mt-6`} data-aos="fade-up">
       <div className="flex-1 flex-col text-center mb-10">
         <h2 className={styles.heading2}>About Me</h2>
-        <p className={`${styles.paragraph} text-left sm:text-center`}>Hello everyone, my name is Dicky Sanjaya, I'm a student at Binus University currently majoring Information Systems. I have learned the basic of Java, UI/UX designing from the college, and now I'm learning and got interested in Frontend web developing. I also have a little bit knowledge of Backend programming since I've learned Golang and made a REST API with it. In this website, I put my web projects to show you guys what I've learned or achieved. Thank you.</p>
+        <p className={`${styles.paragraph} text-left sm:text-center`}>Hello everyone, my name is Dicky Sanjaya, I'm a student at Binus University currently majoring Information Systems. I have learned the basic of Java, UI/UX designing from the college, and now I'm learning and got interested in Frontend web development. I also have a little bit knowledge of Backend programming since I've learned Golang and made a REST API with it. In this website, I put my web projects to show you guys what I've learned or achieved. Thank you.</p>
       </div>
 
       <div className="flex-1 flex-col text-center">

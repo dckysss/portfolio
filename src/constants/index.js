@@ -98,14 +98,6 @@ export const projects = [
   },
   {
     id: "project-4",
-    name: "HooBank",
-    type: "Frontend Development",
-    desc: "HooBank cool company profile landing page with react & tailwind.",
-    img: hoobank,
-    link: "https://hoobank4.netlify.app/",
-  },
-  {
-    id: "project-5",
     name: "manage",
     type: "Frontend Development",
     desc: "Frontend Mentor manage company profile landing page with tailwind & jquery.",

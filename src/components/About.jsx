@@ -3,11 +3,12 @@ import { techs } from "../constants"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import styles, { layout } from "../style"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const TechList = ({ icon, title }) => (
   <div className="flex p-4 md:p-6">
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
-      <img 
+      <LazyLoadImage
         src={icon} 
         alt="icon" 
         title={title}

@@ -1,4 +1,4 @@
-import { github, linkedin, css, react, html, js, tailwind, go, java, figma, lvinnamon, movieSearch, hoobank, manage, tako  } from "../assets";
+import { github, linkedin, css, react, html, js, tailwind, go, java, figma, lvinnamon, movieSearch, manage, tako  } from "../assets";
 
 export const navLinks = [
   {

@@ -1,5 +1,4 @@
 import card from "./card.png";
-import logo from "./logo.svg";
 import css from "./css.svg";
 import html from "./Html.svg";
 import tailwind from "./tailwind.svg";
@@ -22,7 +21,6 @@ import tako from "./Tako.jpeg"
 
 export {
   card,
-  logo,
   css,
   html,
   js,

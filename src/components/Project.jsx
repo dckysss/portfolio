@@ -4,6 +4,7 @@ import { visit } from "../assets"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import styles from "../style"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Project = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const Project = () => {
           <div className="flex justify-center mb-8">
             <div className="w-[90%] relative shadow-md shadow-sky-500/50 border-2 border-neutral-200/80 rounded-[0.5rem] overflow-hidden img-transition md:w-[60%]">
               <a href={project.link} target='_blank'>
-              <img key={project.id} src={project.img} alt={project.id} 
+              <LazyLoadImage key={project.id} src={project.img} alt={project.id}
               className={`rounded-[0.5rem] object-contain opacity-75 cursor-pointer transition-transform web-img`} />
               <div className="absolute w-full h-full z-[3] top-0 flex justify-center rounded-[0.5rem] p-6 hover-img text-[0.8rem] sm:text-[1rem]">
                 <div className="absolute left-2 top-2 px-2 text-white bg-sky-600/75 rounded-[0.5rem] tracking-wide font-poppins">

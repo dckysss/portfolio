@@ -1,16 +1,13 @@
 import React, { useState } from 'react'
 import styles from '../style';
-import { close, logo, menu } from '../assets';
+import { close, menu } from '../assets';
 import { navLinks } from '../constants';
 
 const NavbarScroll = () => {
   const [toggle, setToggle] = useState(false);
-  const [fixed, setFixed] = useState();
 
   return (
     <nav className={`sm:max-w-[1280px] w-full sm:max-w-[1000px] ${styles.flexCenter}  py-4 fixed top-0 z-[10]`}>
-      <img src={logo} alt="hoobank"
-      className='w-[144px] h-[52px]' />
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li

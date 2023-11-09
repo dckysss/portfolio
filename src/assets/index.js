@@ -1,4 +1,3 @@
-import card from "./card.png";
 import css from "./css.svg";
 import html from "./Html.svg";
 import tailwind from "./tailwind.svg";
@@ -18,9 +17,12 @@ import lvinnamon from "./LVinnamon.jpeg"
 import hoobank from "./hoobank.jpeg"
 import manage from "./manage.png"
 import tako from "./Tako.jpeg"
+import golangCert from "./golang-cert.jpg"
+import efsetCert from "./efset-cert.jpg"
+import reactCert from "./react-cert.jpg"
+import webdevCert from "./webdev-cert.jpg"
 
 export {
-  card,
   css,
   html,
   js,
@@ -40,4 +42,8 @@ export {
   hoobank,
   manage,
   tako,
+  golangCert,
+  efsetCert,
+  reactCert,
+  webdevCert
 };

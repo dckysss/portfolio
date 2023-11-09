@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import styles, { layout } from "../style"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Certification from "./Certification";
 
 const TechList = ({ icon, title }) => (
   <div className="flex p-4 md:p-6">
@@ -37,13 +38,14 @@ const About = () => {
 
       <div className="flex-1 flex-col text-center">
         <h2 className={styles.heading2}>My Tech Stacks</h2>
+        <div className={`${layout.sectionImg} flex-row flex-wrap`}>
+          {techs.map((tech, index) => (
+            <TechList key={tech.id} {...tech} index={index}/>
+          ))}
+        </div>
       </div>
 
-      <div className={`${layout.sectionImg} flex-row flex-wrap`}>
-        {techs.map((tech, index) => (
-          <TechList key={tech.id} {...tech} index={index}/>
-        ))}
-      </div>
+      <Certification />
     </section>
   );
 };

@@ -1,4 +1,4 @@
-import { github, linkedin, css, react, html, js, tailwind, go, java, figma, lvinnamon, movieSearch, manage, tako  } from "../assets";
+import { github, linkedin, css, react, html, js, tailwind, go, java, figma, lvinnamon, movieSearch, manage, tako, golangCert, webdevCert, reactCert, efsetCert  } from "../assets";
 
 export const navLinks = [
   {
@@ -68,6 +68,29 @@ export const socialMedia = [
     id: "social-media-2",
     icon: linkedin,
     link: "https://www.linkedin.com/in/dicky-sanjaya-77b857254/",
+  },
+];
+
+export const certs = [
+  {
+    id: "cert-1",
+    img: golangCert,
+    link: "https://drive.google.com/file/d/1TngNmbcNHvjUKGorQnKxjG4tsiqaaiJ2/view",
+  },
+  {
+    id: "cert-2",
+    img: webdevCert,
+    link: "https://www.sololearn.com/certificates/CC-78U7SC4Y",
+  },
+  {
+    id: "cert-3",
+    img: reactCert,
+    link: "https://www.sololearn.com/certificates/CT-GKBVHHOP",
+  },
+  {
+    id: "cert-4",
+    img: efsetCert,
+    link: "https://drive.google.com/file/d/1OFj3pEZUYzO9Lg3TrYHXpJSvZ7u9r6j5/view",
   },
 ];
 

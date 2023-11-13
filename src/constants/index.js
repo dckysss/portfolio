@@ -1,4 +1,4 @@
-import { github, linkedin, css, react, html, js, tailwind, go, java, figma, lvinnamon, movieSearch, manage, tako, golangCert, webdevCert, reactCert, efsetCert  } from "../assets";
+import { github, linkedin, css, react, html, js, tailwind, go, java, figma, lvinnamon, movieSearch, manage, tako, golangCert, feCert, reactCert, efsetCert  } from "../assets";
 
 export const navLinks = [
   {
@@ -79,8 +79,8 @@ export const certs = [
   },
   {
     id: "cert-2",
-    img: webdevCert,
-    link: "https://www.sololearn.com/certificates/CC-78U7SC4Y",
+    img: feCert,
+    link: "https://www.dicoding.com/certificates/L4PQ80E17ZO1",
   },
   {
     id: "cert-3",

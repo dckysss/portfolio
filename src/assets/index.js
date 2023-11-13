@@ -21,6 +21,7 @@ import golangCert from "./golang-cert.jpg"
 import efsetCert from "./efset-cert.jpg"
 import reactCert from "./react-cert.jpg"
 import webdevCert from "./webdev-cert.jpg"
+import feCert from "./fe-cert.jpg"
 
 export {
   css,
@@ -45,5 +46,6 @@ export {
   golangCert,
   efsetCert,
   reactCert,
-  webdevCert
+  webdevCert,
+  feCert
 };

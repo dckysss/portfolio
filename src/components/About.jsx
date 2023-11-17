@@ -1,8 +1,7 @@
-import { useEffect } from "react"
 import { techs } from "../constants"
 import AOS from "aos";
 import "aos/dist/aos.css";
-import styles, { layout } from "../style"
+import styles, { layout } from "../style";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Certification from "./Certification";
 
@@ -10,10 +9,10 @@ const TechList = ({ icon, title }) => (
   <div className="flex p-4 md:p-6">
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
       <LazyLoadImage
-        src={icon} 
-        alt="icon" 
+        src={icon}
+        alt="icon"
         title={title}
-        className="w-[50%] h-[50%] object-contain" 
+        className="w-[50%] h-[50%] object-contain"
         draggable="false"
       />
     </div>
@@ -21,13 +20,11 @@ const TechList = ({ icon, title }) => (
 )
 
 const About = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease",
-      offset: 500,
-    });
-  }, []);
+  AOS.init({
+    duration: 800,
+    easing: "ease",
+    offset: 500,
+  });
 
   return (
     <section id="about-me" className={`${styles.paddingY} mt-6`} data-aos="fade-up">
@@ -40,7 +37,7 @@ const About = () => {
         <h2 className={styles.heading2}>My Tech Stacks</h2>
         <div className={`${layout.sectionImg} flex-row flex-wrap`}>
           {techs.map((tech, index) => (
-            <TechList key={tech.id} {...tech} index={index}/>
+            <TechList key={tech.id} {...tech} index={index} />
           ))}
         </div>
       </div>

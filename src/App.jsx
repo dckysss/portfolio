@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import styles from "./style";
 import { Navbar, Hero, About, Project, Footer } from './components';
 
@@ -14,8 +14,8 @@ const App = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-  
-  return(
+
+  return (
     <div className="bg-primary w-full overflow-hidden smooth-scroll">
       <div className={`${styles.paddingX} ${styles.flexCenter} xl:fixed z-[999] w-full ${visible ? '' : 'navbar'}`}>
         <div className={`${styles.boxWidth}`}>

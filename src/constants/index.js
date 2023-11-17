@@ -1,4 +1,23 @@
-import { github, linkedin, css, react, html, js, tailwind, go, java, figma, lvinnamon, movieSearch, manage, tako, golangCert, feCert, reactCert, efsetCert  } from "../assets";
+import {
+  github,
+  linkedin,
+  css,
+  react,
+  html,
+  js,
+  tailwind,
+  go,
+  java,
+  figma,
+  lvinnamon,
+  movieSearch,
+  manage,
+  tako,
+  golangCert,
+  feCert,
+  reactCert,
+  efsetCert,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -126,5 +145,5 @@ export const projects = [
     desc: "Frontend Mentor manage company profile landing page with tailwind & jquery.",
     img: manage,
     link: "https://manage-landing-fementor.netlify.app/",
-  }
+  },
 ];

@@ -6,12 +6,4 @@ import SocMed from "./SocMed";
 import Footer from "./Footer";
 import Hero from "./Hero";
 
-export {
-  Navbar,
-  NavbarScroll,
-  Project,
-  About,
-  SocMed,
-  Footer,
-  Hero,
-};
+export { Navbar, NavbarScroll, Project, About, SocMed, Footer, Hero };

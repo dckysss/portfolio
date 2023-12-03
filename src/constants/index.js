@@ -16,7 +16,7 @@ import {
   golangCert,
   feCert,
   reactCert,
-  efsetCert,
+  webdevCert,
 } from "../assets";
 
 export const navLinks = [
@@ -108,8 +108,8 @@ export const certs = [
   },
   {
     id: "cert-4",
-    img: efsetCert,
-    link: "https://drive.google.com/file/d/1OFj3pEZUYzO9Lg3TrYHXpJSvZ7u9r6j5/view",
+    img: webdevCert,
+    link: "https://www.sololearn.com/certificates/CC-78U7SC4Y",
   },
 ];
 

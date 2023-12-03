@@ -68,15 +68,11 @@
   );
 }
 
-.hover-img {
+.img-overlay {
   background: rgba(51, 56, 68, 0.5);
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
 }
-
-/* .hover-img:hover {
-  opacity: 1;
-} */
 
 .img-transition:hover .web-img {
   transform: scale(1.1);

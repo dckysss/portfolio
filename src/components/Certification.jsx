@@ -18,7 +18,8 @@ const Certification = () => {
                 <div className="text-white my-auto text-center font-poppins">
                   <div className="flex justify-center">
                     <p className="font-medium text-[1rem] mr-2 sm:text-[1.2rem]">Show Credentials</p>
-                    <img src={visit} alt="visit" loading="lazy" className="w-[1rem] sm:w-[1.5rem]" />
+                    <img src={visit} alt="visit" loading="lazy" width="20"
+                      height="20" className="w-[1rem] sm:w-[1.5rem] h-full" />
                   </div>
                 </div>
               </div>

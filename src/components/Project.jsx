@@ -22,7 +22,8 @@ const Project = () => {
                   <div className="text-white my-auto text-center font-poppins">
                     <div className="flex justify-center">
                       <h3 className="font-semibold text-[1rem] mr-2 sm:text-[1.5rem]">{project.name}</h3>
-                      <img src={visit} alt="visit" loading="lazy" className="w-[1rem] sm:w-[1.5rem]" />
+                      <img src={visit} alt="visit" loading="lazy" width="20"
+                        height="20" className="w-[1rem] sm:w-[1.5rem]" />
                     </div>
                     <p>{project.desc}</p>
                   </div>

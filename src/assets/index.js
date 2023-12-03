@@ -12,16 +12,15 @@ import visit from "./visit-link.svg";
 import github from "./github.svg";
 import linkedin from "./linkedin.svg";
 import developer from "./developer.svg";
-import movieSearch from "./movieSearch.jpeg";
-import lvinnamon from "./LVinnamon.jpeg";
-import hoobank from "./hoobank.jpeg";
-import manage from "./manage.png";
-import tako from "./Tako.jpeg";
-import golangCert from "./golang-cert.jpg";
-import efsetCert from "./efset-cert.jpg";
-import reactCert from "./react-cert.jpg";
-import webdevCert from "./webdev-cert.jpg";
-import feCert from "./fe-cert.jpg";
+import movieSearch from "./movieSearch.webp";
+import lvinnamon from "./LVinnamon.webp";
+import manage from "./manage.webp";
+import tako from "./Tako.webp";
+import golangCert from "./golang-cert.webp";
+import efsetCert from "./efset-cert.webp";
+import reactCert from "./react-cert.webp";
+import webdevCert from "./webdev-cert.webp";
+import feCert from "./fe-cert.webp";
 
 export {
   css,
@@ -40,7 +39,6 @@ export {
   developer,
   movieSearch,
   lvinnamon,
-  hoobank,
   manage,
   tako,
   golangCert,

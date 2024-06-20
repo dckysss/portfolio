@@ -81,7 +81,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: github,
-    link: "https://github.com/pepega212",
+    link: "https://github.com/dckysss",
   },
   {
     id: "social-media-2",

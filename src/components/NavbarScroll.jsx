@@ -7,7 +7,7 @@ const NavbarScroll = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`sm:max-w-[1280px] w-full sm:max-w-[1000px] ${styles.flexCenter}  py-4 fixed top-0 z-[10]`}>
+    <nav className={`w-full ${styles.flexCenter}  py-4 fixed top-0 z-[10]`}>
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li

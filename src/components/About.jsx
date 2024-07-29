@@ -7,7 +7,7 @@ import Certification from "./Certification";
 
 const TechList = ({ icon, title }) => (
   <div className="flex p-4 md:p-6">
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue shadow-inner shadow-sky-500/50`}>
       <LazyLoadImage
         src={icon}
         alt="icon"
@@ -24,6 +24,7 @@ const About = () => {
     duration: 800,
     easing: "ease",
     offset: 500,
+    once: true,
   });
 
   return (

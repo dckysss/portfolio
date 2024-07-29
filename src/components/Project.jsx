@@ -11,7 +11,7 @@ const Project = () => {
         <h2 className={`${styles.heading2} text-center mb-4 md:mb-6`}>My Projects</h2>
         {projects.map((project) => (
           <div className="flex justify-center mb-8">
-            <div className="w-[90%] md:min-h-[300px] relative shadow-md shadow-sky-500/50 border-2 border-neutral-200/80 rounded-[0.5rem] overflow-hidden img-transition md:w-[60%]">
+            <div className="w-[90%] md:min-h-[300px] relative shadow-md shadow-sky-600/50 border-2 border-neutral-200/80 rounded-[0.5rem] overflow-hidden img-transition md:w-[60%]">
               <a href={project.link} target='_blank'>
                 <LazyLoadImage key={project.id} src={project.img} alt={project.id} width="100%" height="100%"
                   className={`rounded-[0.5rem] object-contain opacity-75 cursor-pointer transition-transform web-img`} />

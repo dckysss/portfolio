@@ -21,6 +21,8 @@ import efsetCert from "./efset-cert.webp";
 import reactCert from "./react-cert.webp";
 import webdevCert from "./webdev-cert.webp";
 import feCert from "./fe-cert.webp";
+import takologo from "./tako.jpeg";
+import prosialogo from "./prosia.jpeg";
 
 export {
   css,
@@ -46,4 +48,6 @@ export {
   reactCert,
   webdevCert,
   feCert,
+  takologo,
+  prosialogo,
 };

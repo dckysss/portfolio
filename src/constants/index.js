@@ -17,6 +17,8 @@ import {
   feCert,
   reactCert,
   webdevCert,
+  takologo,
+  prosialogo,
 } from "../assets";
 
 export const navLinks = [
@@ -147,3 +149,22 @@ export const projects = [
     link: "https://manage-landing-fementor.netlify.app/",
   },
 ];
+
+export const experiences = [
+  {
+    id: "exp-1",
+    company: "Tako",
+    period: "Aug 2023 - Jan 2024",
+    type: "Remote",
+    role: "UI/UX Designer",
+    img: takologo,
+  },
+  {
+    id: "exp-2",
+    company: "Prosia",
+    period: "Feb 2024 - Present",
+    type: "Hybrid",
+    role: "Programmer",
+    img: prosialogo,
+  }
+]

@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import styles, { layout } from "../style";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Certification from "./Certification";
+import Experience from "./Experience";
 
 const TechList = ({ icon, title }) => (
   <div className="flex p-4 md:p-6">
@@ -23,8 +24,7 @@ const About = () => {
   AOS.init({
     duration: 800,
     easing: "ease",
-    offset: 500,
-    once: true,
+    offset: 400,
   });
 
   return (
@@ -43,6 +43,7 @@ const About = () => {
         </div>
       </div>
 
+      <Experience />
       <Certification />
     </section>
   );

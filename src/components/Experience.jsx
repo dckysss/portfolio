@@ -17,7 +17,6 @@ const Experience = () => {
               <p className="text-lg font-semibold">{exp.company}</p>
               <p className="text-sm italic text-gray-300">{exp.role}</p>
               <p className="text-sm text-gray-400">{exp.period}</p>
-              <p className="text-sm text-gray-400">{exp.type}</p>
           </div>
         ))}
       </div>

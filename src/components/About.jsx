@@ -25,6 +25,7 @@ const About = () => {
     duration: 800,
     easing: "ease",
     offset: 400,
+    once: true,
   });
 
   return (

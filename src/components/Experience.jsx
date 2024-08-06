@@ -12,7 +12,7 @@ const Experience = () => {
               <LazyLoadImage
                 src={exp.img}
                 alt={exp.company}
-                className="w-40 h-40 object-cover mb-4"
+                className="w-40 h-40 object-cover mb-4 rounded-[0.5rem]"
               />
               <p className="text-lg font-semibold">{exp.company}</p>
               <p className="text-sm italic text-gray-300">{exp.role}</p>

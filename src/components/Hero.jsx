@@ -9,13 +9,13 @@ const Hero = () => (
     <div className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[92px] leading-[65px]'>
+          <h1 className='flex-1 font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[92px] leading-[65px]'>
             Hi, I'am<br className='hidden sm:block' /> <span className='text-gradient'>Dicky</span> {" "}
           </h1>
         </div>
 
         <div className='h-20'>
-          <h2 className='font-poppins font-semibold ss:text-[40px] text-[26px] text-white ss:leading-[60px] leading-[35px]'>
+          <h2 className='font-semibold ss:text-[40px] text-[26px] text-white ss:leading-[60px] leading-[35px]'>
             <ReactTypingEffect
               text={["Front-End Web Developer", "UI/UX Designer"]}
               cursorRenderer={cursor => <span className='flex'>{cursor}</span>}

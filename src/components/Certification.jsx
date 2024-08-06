@@ -15,7 +15,7 @@ const Certification = () => {
               <LazyLoadImage src={cert.img} alt={cert.id} width="100%" height="100%"
                 className={`rounded-[0.5rem] object-fill opacity-75 cursor-pointer transition-transform web-img`} />
               <div className="absolute w-full h-full z-[3] top-0 flex justify-center rounded-[0.5rem] p-6 img-overlay text-[0.8rem] sm:text-[1rem]">
-                <div className="text-white my-auto text-center font-poppins">
+                <div className="text-white my-auto text-center">
                   <div className="flex justify-center">
                     <p className="font-medium text-[1rem] mr-2 sm:text-[1.2rem]">Show Credentials</p>
                     <img src={visit} alt="visit" loading="lazy" width="20"

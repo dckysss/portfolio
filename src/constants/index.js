@@ -11,7 +11,7 @@ import {
   figma,
   lvinnamon,
   movieSearch,
-  manage,
+  stayinn,
   tako,
   golangCert,
   feCert,
@@ -142,11 +142,11 @@ export const projects = [
   },
   {
     id: "project-4",
-    name: "manage",
-    type: "Frontend Development",
-    desc: "Frontend Mentor manage company profile landing page with tailwind & jquery.",
-    img: manage,
-    link: "https://manage-landing-fementor.netlify.app/",
+    name: "StayInn",
+    type: "Fullstack Development",
+    desc: "Fullstack clone of booking.com with MERN stack",
+    img: stayinn,
+    link: "https://stayinn.netlify.app/",
   },
 ];
 

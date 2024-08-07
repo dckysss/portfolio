@@ -32,7 +32,7 @@ const About = () => {
     <section id="about-me" className={`${styles.paddingY} mt-6`} data-aos="fade-up">
       <div className="flex-1 flex-col text-center mb-10">
         <h2 className={styles.heading2}>About Me</h2>
-        <p className={`${styles.paragraph} text-left sm:text-center`}>Hello everyone, my name is Dicky Sanjaya, I'm a student at Binus University currently majoring Information Systems. I have learned the basic of Java, UI/UX designing from the college, and now I'm learning and got interested in Frontend web development. I like to learn new things and sometimes got a big curiosity in one specific thing. In this website, I put my web projects to show you guys what I've learned or achieved. Thank you.</p>
+        <p className={`${styles.paragraph} text-left sm:text-center`}>Hello! I'm Dicky Sanjaya, an Information Systems student at Binus University. I've learned the basic of Java, SQL and UI/UX designing from the study. I also learned frontend web development and a bit of backend through many sources. I've worked for a startup company as a voluntary UI/UX Designer, and further got an internship in a corporate digital service company as a Fullstack Developer. On this site, I put my web projects along with what I've learned or achieved. Thanks for visiting!</p>
       </div>
 
       <div className="flex-1 flex-col text-center">

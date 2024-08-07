@@ -14,7 +14,7 @@ import linkedin from "./linkedin.svg";
 import developer from "./developer.svg";
 import movieSearch from "./movieSearch.webp";
 import lvinnamon from "./LVinnamon.webp";
-import manage from "./manage.webp";
+import stayinn from "./stayinn.webp";
 import tako from "./Tako.webp";
 import golangCert from "./golang-cert.webp";
 import efsetCert from "./efset-cert.webp";
@@ -41,7 +41,7 @@ export {
   developer,
   movieSearch,
   lvinnamon,
-  manage,
+  stayinn,
   tako,
   golangCert,
   efsetCert,

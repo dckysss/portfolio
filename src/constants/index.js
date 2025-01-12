@@ -16,7 +16,7 @@ import {
   golangCert,
   feCert,
   reactCert,
-  webdevCert,
+  icimcisCert,
   takologo,
   prosialogo,
 } from "../assets";
@@ -95,23 +95,23 @@ export const socialMedia = [
 export const certs = [
   {
     id: "cert-1",
+    img: icimcisCert,
+    link: "https://drive.google.com/file/d/13SiEK63S17NTBBPsBgNu4tX0I6O-scmp/view",
+  },
+  {
+    id: "cert-2",
     img: golangCert,
     link: "https://drive.google.com/file/d/1TngNmbcNHvjUKGorQnKxjG4tsiqaaiJ2/view",
   },
   {
-    id: "cert-2",
+    id: "cert-3",
     img: feCert,
     link: "https://www.dicoding.com/certificates/L4PQ80E17ZO1",
   },
   {
-    id: "cert-3",
+    id: "cert-4",
     img: reactCert,
     link: "https://www.sololearn.com/certificates/CT-GKBVHHOP",
-  },
-  {
-    id: "cert-4",
-    img: webdevCert,
-    link: "https://www.sololearn.com/certificates/CC-78U7SC4Y",
   },
 ];
 
@@ -161,8 +161,8 @@ export const experiences = [
   {
     id: "exp-2",
     company: "Prosia",
-    period: "Feb 2024 - Present",
-    role: "Programmer",
+    period: "Feb 2024 - Feb 2025",
+    role: "Programmer Intern (Fullstack Web Developer)",
     img: prosialogo,
   }
 ]

@@ -19,7 +19,7 @@ import tako from "./Tako.webp";
 import golangCert from "./golang-cert.webp";
 import efsetCert from "./efset-cert.webp";
 import reactCert from "./react-cert.webp";
-import webdevCert from "./webdev-cert.webp";
+import icimcisCert from "./icimcis-cert.webp";
 import feCert from "./fe-cert.webp";
 import takologo from "./tako.jpeg";
 import prosialogo from "./prosia.jpeg";
@@ -46,7 +46,7 @@ export {
   golangCert,
   efsetCert,
   reactCert,
-  webdevCert,
+  icimcisCert,
   feCert,
   takologo,
   prosialogo,

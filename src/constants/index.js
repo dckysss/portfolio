@@ -4,7 +4,7 @@ import {
   css,
   react,
   html,
-  js,
+  node,
   tailwind,
   go,
   java,
@@ -54,8 +54,8 @@ export const techs = [
   },
   {
     id: "tech-4",
-    icon: js,
-    title: "JavaScript",
+    icon: node,
+    title: "NodeJS",
   },
   {
     id: "tech-5",

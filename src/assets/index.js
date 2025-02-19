@@ -2,7 +2,7 @@ import css from "./css.svg";
 import html from "./Html.svg";
 import tailwind from "./tailwind.svg";
 import react from "./react.svg";
-import js from "./js.svg";
+import node from "./node.svg";
 import figma from "./figma.svg";
 import go from "./go.svg";
 import java from "./java.svg";
@@ -27,7 +27,7 @@ import prosialogo from "./prosia.jpeg";
 export {
   css,
   html,
-  js,
+  node,
   react,
   tailwind,
   figma,
